@@ -13,9 +13,9 @@ body {
 }
 .nav_logo img {
   background-image: url();
-  max-width: 150px;
+  max-width: 99px;
   margin-left: 20px;
-  margin-top: -31px;
+  margin-top: -13px;
 }
 .nav_logo div {
   overflow: hidden;
@@ -46,6 +46,7 @@ img:hover {
   align-content: center;
 }
 .search_mic button {
+  border-radius: 0px 12px 12px 0px;
   background-color: #f0f0f0;
   border: 1px solid #dbdbdb;
   font-size: 30px;
@@ -88,10 +89,12 @@ span:hover + .hidden {
   margin-left: 10%;
 }
 .search_mic input {
+  padding-left: 13px;
   border: 1px solid #dbdbdb;
   width: 563px;
   height: 36px;
   margin: 0px;
+  border-radius: 12px 0px 0px 12px;
 }
 .search_mic input::placeholder {
   font-size: 17px;
@@ -114,7 +117,7 @@ span:hover + .hidden {
 .filter {
   position: fixed;
   left: 250px;
-  top: 70px;
+  top: 4rem;
   width: calc(100% - 230px);
   width: 90%;
   height: 60px;
