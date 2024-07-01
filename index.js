@@ -1,4 +1,7 @@
+window.  alert("𝐨𝐩𝐞𝐧 𝐝𝐞𝐬𝐤𝐭𝐨𝐩 𝐦𝐨𝐝𝐞 𝐟𝐨𝐫 𝐁𝐄𝐓𝐓𝐄𝐑 𝐔𝐈 🙂");
 const Api="AIzaSyD3o72WJh5kyp8QY1pTETa5d406zQWc1co";
+
+
 const result = document.querySelector(".result");
   mostPopular();
   async function mostPopular() {
@@ -83,7 +86,7 @@ const result = document.querySelector(".result");
   }
   let clicked_video = JSON.parse(localStorage.getItem("clicked_video"));
   let youtube_videos = JSON.parse(localStorage.getItem("youtube_videos"));
-  // console.log(youtube_videos)
+ console.log(youtube_videos)
 let videoId;
   if (clicked_video.id != undefined) {
     videoId = clicked_video.id;
@@ -155,3 +158,4 @@ let videoId;
     localStorage.setItem("clicked_video", JSON.stringify(data));
     window.location.href = "video_youtube.html";
   }
+
